@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="iebptpch-pds-extractor",
-    version="1.0.0",
+    version="1.0.1",
     author="Arunkumar Selvam",
     author_email="aruninfy123@gmail.com",
     description="Extract PDS members from IEBPTPCH output files with support for both ASCII and EBCDIC formats",

@@ -15,7 +15,7 @@ import argparse
 import codecs
 from typing import Optional, List, Tuple
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Arunkumar Selvam"
 __email__ = "aruninfy123@gmail.com"
 
