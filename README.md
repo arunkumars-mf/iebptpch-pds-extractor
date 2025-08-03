@@ -14,6 +14,29 @@ This utility processes output files created by the IBM IEBPTPCH utility, which c
 2. **Transfer the file** from mainframe to your local system
 3. **Extract individual members** using this Python utility
 
+## Why Use This Tool Instead of FTP Clients?
+
+While FTP clients like FileZilla can transfer mainframe files and convert EBCDIC to ASCII, this tool offers key advantages for mainframe migration projects:
+
+### **🔄 Migration-Critical Benefits**
+
+- **One-Time Binary Transfer**: Transfer the IEBPTPCH file once in binary mode, then perform multiple EBCDIC-to-ASCII conversions locally without re-transferring from mainframe
+- **Encoding Preservation**: Mainframe source code often contains hard-coded special characters that require precise encoding conversion - if the wrong encoding is used, you can verify against the original EBCDIC file locally without asking customers to re-transfer or check the mainframe again
+- **Multiple Encoding Support**: Supports 25+ EBCDIC code pages with automatic fallback for better compatibility
+- **Individual Member Extraction**: Extracts each PDS member as a separate file with proper member names, rather than a single large file
+
+### **⚡ Automation Benefits**
+- **Scriptable**: Command-line interface and Python API for integration into migration pipelines
+- **File Extensions**: Add appropriate extensions (.jcl, .cbl, .asm, etc.) for better file organization
+- **Batch Processing**: Process entire libraries without manual intervention
+
+### **💼 Migration Efficiency**
+- **Reduced Mainframe Load**: Minimize mainframe resource usage and connect time
+- **Faster Iteration**: Test different encodings and processing options locally
+- **Cost Efficiency**: Reduce mainframe costs during migration projects
+
+**💡 Best Practice**: Use this tool when migrating mainframe source code to ensure accurate encoding conversion and efficient member extraction.
+
 ## Installation
 
 ### From PyPI (Recommended)
