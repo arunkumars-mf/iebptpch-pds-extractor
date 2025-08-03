@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iebptpch-pds-extractor"
+version = "1.0.0"
+authors = [
+    {name = "Arunkumar Selvam", email = "aruninfy123@gmail.com"},
+]
+description = "Extract PDS members from IEBPTPCH output files with support for both ASCII and EBCDIC formats"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Archiving",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+keywords = ["mainframe", "pds", "iebptpch", "ebcdic", "ascii", "extractor", "ibm", "z/os", "mvs"]
+
+[project.urls]
+Homepage = "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
+"Bug Reports" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor/issues"
+"Source" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
+"Documentation" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor#readme"
+
+[project.scripts]
+iebptpch-pds-extractor = "iebptpch_pds_extractor:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.rst"]
