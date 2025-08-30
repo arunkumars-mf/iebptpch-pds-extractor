@@ -37,6 +37,7 @@ Homepage = "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
 "Bug Reports" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor/issues"
 "Source" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
 "Documentation" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor#readme"
+"Citation" = "https://github.com/arunkumars-mf/iebptpch-pds-extractor/blob/main/CITATION.cff"
 
 [project.scripts]
 iebptpch-pds-extractor = "iebptpch_pds_extractor:main"

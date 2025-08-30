@@ -1,6 +1,7 @@
 # IEBPTPCH PDS Extractor
 
 [![PyPI version](https://img.shields.io/pypi/v/iebptpch-pds-extractor.svg)](https://pypi.org/project/iebptpch-pds-extractor/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dt/iebptpch-pds-extractor)](https://pypi.org/project/iebptpch-pds-extractor/)
 [![Python versions](https://img.shields.io/pypi/pyversions/iebptpch-pds-extractor.svg)](https://pypi.org/project/iebptpch-pds-extractor/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -277,6 +278,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for version history and changes.
+
+## Citation
+
+If you use this software in your research or project, please cite it as:
+
+```bibtex
+@software{selvam_iebptpch_pds_extractor_2024,
+  author = {Selvam, Arunkumar},
+  title = {IEBPTPCH PDS Extractor},
+  url = {https://github.com/arunkumars-mf/iebptpch-pds-extractor},
+  version = {1.0.1},
+  year = {2024}
+}
+```
+
+**APA Style:**
+Selvam, A. (2024). IEBPTPCH PDS Extractor (Version 1.0.1) [Computer software]. https://github.com/arunkumars-mf/iebptpch-pds-extractor
+
+**IEEE Style:**
+A. Selvam, "IEBPTPCH PDS Extractor," Version 1.0.1, 2024. [Online]. Available: https://github.com/arunkumars-mf/iebptpch-pds-extractor
 
 ## Support
 
