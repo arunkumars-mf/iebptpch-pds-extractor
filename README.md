@@ -297,7 +297,7 @@ If you use this software in your research or project, please cite it as:
 Selvam, A. (2024). IEBPTPCH PDS Extractor (Version 1.0.2) [Computer software]. https://github.com/arunkumars-mf/iebptpch-pds-extractor
 
 **IEEE Style:**
-A. Selvam, "IEBPTPCH PDS Extractor," Version 1.0.2, 2024. [Online]. Available: https://github.com/arunkumars-mf/iebptpch-pds-extractor
+A. Selvam (IEEE Member), "IEBPTPCH PDS Extractor," Version 1.0.2, 2024. [Online]. Available: https://github.com/arunkumars-mf/iebptpch-pds-extractor
 
 ## Support
 
