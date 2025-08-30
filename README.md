@@ -1,7 +1,7 @@
 # IEBPTPCH PDS Extractor
 
 [![PyPI version](https://img.shields.io/pypi/v/iebptpch-pds-extractor.svg)](https://pypi.org/project/iebptpch-pds-extractor/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dt/iebptpch-pds-extractor)](https://pypi.org/project/iebptpch-pds-extractor/)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/iebptpch-pds-extractor?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/iebptpch-pds-extractor)
 [![Python versions](https://img.shields.io/pypi/pyversions/iebptpch-pds-extractor.svg)](https://pypi.org/project/iebptpch-pds-extractor/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
