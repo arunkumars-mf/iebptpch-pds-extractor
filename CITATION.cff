@@ -7,7 +7,7 @@ authors:
     email: "aruninfy123@gmail.com"
     orcid: "https://orcid.org/0009-0006-2050-5569"
 title: "IEBPTPCH PDS Extractor"
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2024-08-03"
 url: "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
 repository-code: "https://github.com/arunkumars-mf/iebptpch-pds-extractor"
